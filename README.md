@@ -2,6 +2,7 @@
 An STM32-L476RG powered terminal-based typing test interface, inspired by MonkeyType
 
 **User Manual**
+
 Welcome to Nucleotype! This project is operated directly through the VT1000 serial terminal emulator, 
 so no interaction with the hardware is necessary once the program is running. Once the device is connected
 to power, the reset button on the STM32 board can be pressed to load the program into the terminal.
@@ -10,7 +11,9 @@ At startup, you will be asked to choose from the following selections for timing
 associated key:
 
 [1] → 10 seconds 
+
 [2] → 15 seconds
+
 [3] → 30 seconds
 
 This allows you to select how long they want their typing test to run for. Once the key associated with the
